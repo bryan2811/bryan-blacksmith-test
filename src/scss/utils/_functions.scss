@@ -2,7 +2,7 @@
 $rem-base: 16px;
 
 @function strip-unit($num) {
-	@return calc($num / ($num * 0 + 1));
+	@return calc($num / 1);
 }
 
 @function convert-to-rem($value, $base-value: $rem-base) {
