@@ -1,14 +1,14 @@
 %site-wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: rem-calc(1920);
+	max-width: rem-calc(1920px);
 	width: 100%;
 }
 
 %mobile-max-wrapper {
 	@include media('<=phone') {
 		width: 100%;
-		max-width: rem-calc(575);
+		max-width: rem-calc(575px);
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -24,19 +24,19 @@
     &__featured {
     	display: block;
     	font-family: $font-druk-wide;
-    	font-size: rem-calc(14);
+    	font-size: rem-calc(14px);
     	line-height: 1.4;
     	letter-spacing: 0.39px;
-    	margin-bottom: rem-calc(20);
+    	margin-bottom: rem-calc(20px);
 
     	@include media('>tablet') {
-    		font-size: rem-calc(15);
+    		font-size: rem-calc(15px);
     	}
 
     	@include media('>desktop-small') {
-    		font-size: rem-calc(16);
+    		font-size: rem-calc(16px);
     		letter-spacing: 0.44px;
-    		margin-bottom: rem-calc(14);
+    		margin-bottom: rem-calc(14px);
     	}
 
     	&--dark {
@@ -60,16 +60,16 @@
 	transform: translate(-50%, -50%);
 	display: inline-flex;
 	font-family: $font-forza;
-	font-size: rem-calc(12);
+	font-size: rem-calc(12px);
 	color: $color-white;
 	letter-spacing: 0.15px;
 
 	@include media('>phone') {
-		font-size: rem-calc(10);
+		font-size: rem-calc(10px);
 	}
 
 	@include media('>tablet') {
-		font-size: rem-calc(12);
+		font-size: rem-calc(12px);
 	}
 
 	&--total {

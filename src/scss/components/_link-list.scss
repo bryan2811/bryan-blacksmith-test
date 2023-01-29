@@ -18,7 +18,7 @@
 	align-content: stretch;
 	align-items: stretch;
 	justify-content: space-between;
-	padding: rem-calc(17) rem-calc(16) rem-calc(17) rem-calc(10);
+	padding: rem-calc(17px) rem-calc(16px) rem-calc(17px) rem-calc(10px);
 
 	@include media('>phone') {
 		align-items: center;
@@ -26,15 +26,15 @@
 	}
 
 	@include media('>desktop-small') {
-		padding: rem-calc(18) rem-calc(19) rem-calc(18) rem-calc(20);
+		padding: rem-calc(18px) rem-calc(19px) rem-calc(18px) rem-calc(20px);
 	}
 
 	@include media('>desktop-medium') {
-		padding: rem-calc(20) rem-calc(22) rem-calc(20) rem-calc(30);
+		padding: rem-calc(20px) rem-calc(22px) rem-calc(20px) rem-calc(30px);
 	}
 
 	@include media('>desktop-large') {
-		padding: rem-calc(25) rem-calc(26) rem-calc(25) rem-calc(40);
+		padding: rem-calc(25px) rem-calc(26px) rem-calc(25px) rem-calc(40px);
 	}
 
 	&--download-btn {
@@ -44,23 +44,23 @@
 		&::after {
 			content: '';
 			display: inline-block;
-			width: rem-calc(36);
-			height: rem-calc(40);
+			width: rem-calc(36px);
+			height: rem-calc(40px);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
 			transition: 0.35s ease opacity;
 
 			@include media('>desktop-small') {
-				width: rem-calc(44);
-				height: rem-calc(50);
+				width: rem-calc(44px);
+				height: rem-calc(50px);
 			}
 		}
 
 		&::before {
 			position: absolute;
 			top: 50%;
-			right: rem-calc(16);
+			right: rem-calc(16px);
 			z-index: 2;
 			transform: translateY(-50%);
 			background-image: url('/wp-content/themes/rae-energy/images/shared/download-icon-white.svg');
@@ -68,15 +68,15 @@
 			opacity: 0;
 
 			@include media('>desktop-small') {
-				right: rem-calc(19);
+				right: rem-calc(19px);
 			}
 
 			@include media('>desktop-medium') {
-				right: rem-calc(22);
+				right: rem-calc(22px);
 			}
 
 			@include media('>desktop-large') {
-				right: rem-calc(27);
+				right: rem-calc(27px);
 			}
 		}
 
@@ -111,21 +111,21 @@
 		}
 
 		&::before {
-			right: rem-calc(12);
-			width: rem-calc(34);
-			height: rem-calc(40);
+			right: rem-calc(12px);
+			width: rem-calc(34px);
+			height: rem-calc(40px);
 			border: 1px solid $color-orange;
 			transition: 0.35s ease background-color;
 
 			@include media('>desktop-small') {
-				right: rem-calc(27);
-				width: rem-calc(44);
-				height: rem-calc(50);
+				right: rem-calc(27px);
+				width: rem-calc(44px);
+				height: rem-calc(50px);
 			}
 		}
 
 		&::after {
-			right: rem-calc(27);
+			right: rem-calc(27px);
 			width: 5px;
 			height: 5px;
 			border-right: 1px solid $color-orange;
@@ -134,7 +134,7 @@
 			transform: translateY(-50%) rotate(-45deg);
 
 			@include media('>desktop-small') {
-				right: rem-calc(46);
+				right: rem-calc(46px);
 				width: 6px;
 				height: 6px;
 			}
@@ -154,7 +154,7 @@
 
 %link-list__title-label {
 	display: block;
-	font-size: rem-calc(10);
+	font-size: rem-calc(10px);
 	font-family: $font-forza;
 	font-weight: 700;
 	color: $color-pumpkin;
@@ -187,21 +187,21 @@
 	&--main {
 		@extend %link-list__title;
 
-		font-size: rem-calc(13);
+		font-size: rem-calc(13px);
 		letter-spacing: 0.16px;
 		color: $color-licorice;
 		text-transform: uppercase;
 
 		@include media('>tablet') {
-			font-size: rem-calc(14);
+			font-size: rem-calc(14px);
 		}
 
 		@include media('>desktop-small') {
-			font-size: rem-calc(15);
+			font-size: rem-calc(15px);
 		}
 
 		@include media('>desktop-medium') {
-			font-size: rem-calc(16);
+			font-size: rem-calc(16px);
 			letter-spacing: 0.2px;
 		}
 	}
@@ -209,7 +209,7 @@
 	&--secondary {
 		@extend %link-list__title;
 
-		font-size: rem-calc(14);
+		font-size: rem-calc(14px);
 		letter-spacing: 0.17px;
 		color: $color-mediumgray;
 		padding-right: 7px;

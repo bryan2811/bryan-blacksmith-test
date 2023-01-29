@@ -2,20 +2,20 @@
 	display: block;
 	font-family: $font-forza;
 	font-weight: bold;
-	font-size: rem-calc(12);
+	font-size: rem-calc(12px);
 	text-transform: uppercase;
 	letter-spacing: 0.15px;
 	line-height: 1.1;
-	margin-bottom: rem-calc(12);
+	margin-bottom: rem-calc(12px);
 
 	@include media('>tablet') {
-		font-size: rem-calc(14);
+		font-size: rem-calc(14px);
 		letter-spacing: 0.2px;
-		margin-bottom: rem-calc(10);
+		margin-bottom: rem-calc(10px);
 	}
 
 	@include media('>desktop-small') {
-		font-size: rem-calc(16);
+		font-size: rem-calc(16px);
 	}
 
 	&--dark {
@@ -33,24 +33,24 @@
 
 %header__title {
 	font-family: $font-druk-wide;
-	font-size: rem-calc(18);
+	font-size: rem-calc(18px);
 	text-transform: uppercase;
 	line-height: 1.35;
 
 	@include media('>tablet') {
-		font-size: rem-calc(22);
+		font-size: rem-calc(22px);
 	}
 
 	@include media('>desktop-small') {
-		font-size: rem-calc(24);
+		font-size: rem-calc(24px);
 	}
 
 	@include media('>desktop-medium') {
-		font-size: rem-calc(26);
+		font-size: rem-calc(26px);
 	}
 
 	@include media('>desktop-large') {
-		font-size: rem-calc(28);
+		font-size: rem-calc(28px);
 	}
 
 	&--dark {
@@ -88,29 +88,29 @@
 	background-color: $color-licorice;
 	text-transform: uppercase;
 	font-family: $font-druk-wide;
-	font-size: rem-calc(9);
-	letter-spacing: rem-calc(0.85);
+	font-size: rem-calc(9px);
+	letter-spacing: rem-calc(0.85px);
 	line-height: 1;
-	padding: rem-calc(10) rem-calc(14);
+	padding: rem-calc(10px) rem-calc(14px);
 
 	@include media('>tablet') {
-		padding-left: rem-calc(18);
-		padding-right: rem-calc(18);
+		padding-left: rem-calc(18px);
+		padding-right: rem-calc(18px);
 	}
 
 	@include media('>desktop-small') {
-		padding-left: rem-calc(20);
-		padding-right: rem-calc(20);
+		padding-left: rem-calc(20px);
+		padding-right: rem-calc(20px);
 	}
 
 	@include media('>desktop-medium') {
-		padding-left: rem-calc(24);
-		padding-right: rem-calc(24);
+		padding-left: rem-calc(24px);
+		padding-right: rem-calc(24px);
 	}
 
 	@include media('>desktop-large') {
-		padding-left: rem-calc(30);
-		padding-right: rem-calc(30);
+		padding-left: rem-calc(30px);
+		padding-right: rem-calc(30px);
 	}
 }
 

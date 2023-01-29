@@ -22,24 +22,24 @@
 			position: relative;
 			z-index: 4;
 			width: 100%;
-			height: rem-calc(60);
+			height: rem-calc(60px);
 			background-color: $color-slate;
 		}
 
 		@include media('>tablet') {
-			height: rem-calc(80);
+			height: rem-calc(80px);
 		}
 
 		@include media('>desktop-small') {
-			height: rem-calc(100);
+			height: rem-calc(100px);
 		}
 
 		@include media('>desktop-medium') {
-			height: rem-calc(120);
+			height: rem-calc(120px);
 		}
 
 		@include media('>desktop-large') {
-			height: rem-calc(138);
+			height: rem-calc(138px);
 		}
 	}
 
@@ -47,102 +47,102 @@
 		@extend %site-wrapper;
 
 		position: relative;
-		padding-top: rem-calc(60);
-		padding-bottom: rem-calc(74);
+		padding-top: rem-calc(60px);
+		padding-bottom: rem-calc(74px);
 
 		@include media('>tablet') {
-			padding: rem-calc(70) rem-calc(60) rem-calc(120);
+			padding: rem-calc(70px) rem-calc(60px) rem-calc(120px);
 		}
 
 		@include media('>desktop-small') {
-			padding: rem-calc(90) rem-calc(80) rem-calc(160);
+			padding: rem-calc(90px) rem-calc(80px) rem-calc(160px);
 		}
 
 		@include media('>desktop-medium') {
-			padding: rem-calc(110) rem-calc(100) rem-calc(200);
+			padding: rem-calc(110px) rem-calc(100px) rem-calc(200px);
 		}
 
 		@include media('>desktop-large') {
-			padding: rem-calc(130) rem-calc(120) rem-calc(230);
+			padding: rem-calc(130px) rem-calc(120px) rem-calc(230px);
 		}
 
 		@include media('>desktop-xlarge') {
-			padding: rem-calc(150) rem-calc(146) rem-calc(250);
+			padding: rem-calc(150px) rem-calc(146px) rem-calc(250px);
 		}
 	}
 
 	&-large-decoration {
 		@extend %text-decoration__large--right;
 
-		top: rem-calc(730);
-		right: rem-calc(26);
+		top: rem-calc(730px);
+		right: rem-calc(26px);
 		z-index: 2;
 
 		@include media('>phone-small') {
-			top: rem-calc(684);
+			top: rem-calc(684px);
 		}
 
 		@include media('>phone') {
-			top: rem-calc(688);
-			right: rem-calc(115);
+			top: rem-calc(688px);
+			right: rem-calc(115px);
 		}
 
 		@include media('>tablet') {
-			top: rem-calc(774);
-			right: rem-calc(125);
+			top: rem-calc(774px);
+			right: rem-calc(125px);
 		}
 
 		@include media('>desktop-small') {
-			top: rem-calc(948);
-			right: rem-calc(155);
+			top: rem-calc(948px);
+			right: rem-calc(155px);
 		}
 
 		@include media('>desktop-medium') {
-			top: rem-calc(1046);
-			right: rem-calc(165);
+			top: rem-calc(1046px);
+			right: rem-calc(165px);
 		}
 
 		@include media('>desktop-large') {
-			top: rem-calc(1152);
-			right: rem-calc(170);
+			top: rem-calc(1152px);
+			right: rem-calc(170px);
 		}
 
 		@include media('>desktop-xlarge') {
-			top: rem-calc(1195);
-			right: rem-calc(173);
+			top: rem-calc(1195px);
+			right: rem-calc(173px);
 		}
 
 		&__text {
 			@extend %text-decoration__large-label--dark;
 
-			font-size: rem-calc(72);
+			font-size: rem-calc(72px);
 
 			@include media('>phone-small') {
-				font-size: rem-calc(67);
+				font-size: rem-calc(67px);
 			}
 
 			@include media('>phone') {
-				font-size: rem-calc(68);
+				font-size: rem-calc(68px);
 			}
 
 			@include media('>tablet') {
-				font-size: rem-calc(76);
+				font-size: rem-calc(76px);
 			}
 
 			@include media('>desktop-small') {
-				font-size: rem-calc(94);
+				font-size: rem-calc(94px);
 			}
 
 			@include media('>desktop-medium') {
-				font-size: rem-calc(104);
+				font-size: rem-calc(104px);
 			}
 
 			@include media('>desktop-large') {
-				font-size: rem-calc(114);
+				font-size: rem-calc(114px);
 			}
 
 			@include media('>desktop-xlarge') {
-				font-size: rem-calc(118);
+				font-size: rem-calc(118px);
 			}
 		}
 	}
@@ -186,43 +186,43 @@
 		position: relative;
 		z-index: 4;
 		text-align: center;
-		margin-bottom: rem-calc(47);
+		margin-bottom: rem-calc(47px);
 
 		@include media('>tablet') {
-			margin-bottom: rem-calc(70);
+			margin-bottom: rem-calc(70px);
 		}
 
 		@include media('>desktop-small') {
-			margin-bottom: rem-calc(90);
+			margin-bottom: rem-calc(90px);
 		}
 
 		@include media('>desktop-medium') {
-			margin-bottom: rem-calc(110);
+			margin-bottom: rem-calc(110px);
 		}
 
 		@include media('>desktop-large') {
-			margin-bottom: rem-calc(130);
+			margin-bottom: rem-calc(130px);
 		}
 
 		@include media('>desktop-xlarge') {
-			margin-bottom: rem-calc(150);
+			margin-bottom: rem-calc(150px);
 		}
 
 		&__subtitle {
 			@extend %header__subtitle--light;
 
-			margin-bottom: rem-calc(15);
+			margin-bottom: rem-calc(15px);
 
 			@include media('>desktop-small') {
-				margin-bottom: rem-calc(18);
+				margin-bottom: rem-calc(18px);
 			}
 
 			@include media('>desktop-medium') {
-				margin-bottom: rem-calc(20);
+				margin-bottom: rem-calc(20px);
 			}
 
 			@include media('>desktop-large') {
-				margin-bottom: rem-calc(24);
+				margin-bottom: rem-calc(24px);
 			}
 		}
 
@@ -236,42 +236,43 @@
 		z-index: 4;
         width: 100%;
         max-width: 100%;
-		margin-bottom: rem-calc(31);
+		margin-bottom: rem-calc(31px);
 
 		&__item {
+      background-color: $color-white;
 			position: relative;
-			margin: rem-calc(15) 7px;
+			margin: rem-calc(15px) 7px;
 			text-align: center;
-			padding: rem-calc(47) rem-calc(15) rem-calc(25);
+			padding: rem-calc(47px) rem-calc(15px) rem-calc(25px);
 
 			@include media('>499px') {
-				padding-left: rem-calc(60);
-				padding-right: rem-calc(60);
+				padding-left: rem-calc(60px);
+				padding-right: rem-calc(60px);
 			}
 
 			@include media('>tablet') {
-				padding-left: rem-calc(20);
-				padding-right: rem-calc(20);
+				padding-left: rem-calc(20px);
+				padding-right: rem-calc(20px);
 			}
 
 			@include media('>desktop-small') {
-				padding-left: rem-calc(30);
-				padding-right: rem-calc(30);
-				margin-left: rem-calc(12);
-				margin-right: rem-calc(12);
+				padding-left: rem-calc(30px);
+				padding-right: rem-calc(30px);
+				margin-left: rem-calc(12px);
+				margin-right: rem-calc(12px);
 			}
 
 			@include media('>desktop-medium') {
-				padding-left: rem-calc(40);
-				padding-right: rem-calc(40);
-				margin-left: rem-calc(25);
-				margin-right: rem-calc(25);
+				padding-left: rem-calc(40px);
+				padding-right: rem-calc(40px);
+				margin-left: rem-calc(25px);
+				margin-right: rem-calc(25px);
 			}
 
 			@include media('>desktop-large') {
-				padding: rem-calc(56) rem-calc(50) rem-calc(30);
-				margin-left: rem-calc(30);
-				margin-right: rem-calc(30);
+				padding: rem-calc(56px) rem-calc(50px) rem-calc(30px);
+				margin-left: rem-calc(30px);
+				margin-right: rem-calc(30px);
 			}
 
 			&::before {
@@ -281,16 +282,16 @@
 				left: 50%;
 				z-index: 4;
 				transform: translate(-50%, -30%);
-				width: rem-calc(32);
-				height: rem-calc(40);
+				width: rem-calc(32px);
+				height: rem-calc(40px);
 				background-image: url('../images/testimonials/quotes-icon.svg');
 				background-position: center top;
 				background-size: contain;
 				background-repeat: no-repeat;
 
 				@include media('>desktop-small') {
-					width: rem-calc(41);
-					height: rem-calc(33);
+					width: rem-calc(41px);
+					height: rem-calc(33px);
 					transform: translate(-50%, -65%);
 				}
 			}
@@ -299,31 +300,31 @@
 		&__picture {
 			@extend %site-picture;
 
-			width: rem-calc(71);
-			height: rem-calc(71);
+			width: rem-calc(71px);
+			height: rem-calc(71px);
 			margin-left: auto;
 			margin-right: auto;
-			margin-bottom: rem-calc(25);
+			margin-bottom: rem-calc(25px);
 
 			@include media('>tablet') {
-				width: rem-calc(78);
-				height: rem-calc(78);
+				width: rem-calc(78px);
+				height: rem-calc(78px);
 			}
 
 			@include media('>desktop-small') {
-				width: rem-calc(86);
-				height: rem-calc(86);
+				width: rem-calc(86px);
+				height: rem-calc(86px);
 			}
 
 			@include media('>desktop-medium') {
-				width: rem-calc(102);
-				height: rem-calc(102);
+				width: rem-calc(102px);
+				height: rem-calc(102px);
 			}
 
 			@include media('>desktop-large') {
-				width: rem-calc(117);
-				height: rem-calc(117);
-				margin-bottom: rem-calc(30);
+				width: rem-calc(117px);
+				height: rem-calc(117px);
+				margin-bottom: rem-calc(30px);
 			}
 		}
 
@@ -335,25 +336,25 @@
 			font-family: $font-open_sans;
 			font-weight: 600;
 			font-style: italic;
-			font-size: rem-calc(12);
+			font-size: rem-calc(12px);
 			letter-spacing: 0.45px;
 			line-height: 1.35;
 			color: $color-mediumgray;
-			margin-bottom: rem-calc(17);
+			margin-bottom: rem-calc(17px);
 
 			@include media('>desktop-small') {
-				font-size: rem-calc(14);
+				font-size: rem-calc(14px);
 				letter-spacing: 0.53px;
 				line-height: 1.5;
-				margin-bottom: rem-calc(22);
+				margin-bottom: rem-calc(22px);
 			}
 
 			@include media('>desktop-medium') {
-				margin-bottom: rem-calc(30);
+				margin-bottom: rem-calc(30px);
 			}
 
 			@include media('>desktop-large') {
-				margin-bottom: rem-calc(38);
+				margin-bottom: rem-calc(38px);
 			}
 
 			&::before,
@@ -367,18 +368,18 @@
 				display: block;
 				color: $color-mediumgray;
 				font-family: $font-druk-wide;
-				font-size: rem-calc(14);
+				font-size: rem-calc(14px);
 				letter-spacing: 0.39px;
 				line-height: 1.15;
 				margin-bottom: 5px;
 
 				@include media('>desktop-small') {
-					font-size: rem-calc(16);
+					font-size: rem-calc(16px);
 					letter-spacing: 0.5px;
 				}
 
 				@include media('>desktop-medium') {
-					font-size: rem-calc(18);
+					font-size: rem-calc(18px);
 				}
 			}
 
@@ -386,35 +387,35 @@
 				display: block;
 				font-family: $font-forza;
 				font-weight: 700;
-				font-size: rem-calc(10);
+				font-size: rem-calc(10px);
 				letter-spacing: 0.13px;
 				color: $color-pumpkin;
 				text-transform: uppercase;
-				margin-bottom: rem-calc(18);
+				margin-bottom: rem-calc(18px);
 
 				@include media('>desktop-small') {
-					font-size: rem-calc(12);
+					font-size: rem-calc(12px);
 					letter-spacing: 0.15px;
-					margin-bottom: rem-calc(26);
+					margin-bottom: rem-calc(26px);
 				}
 
 				@include media('>desktop-medium') {
-					margin-bottom: rem-calc(34);
+					margin-bottom: rem-calc(34px);
 				}
 
 				@include media('>desktop-large') {
-					margin-bottom: rem-calc(42);
+					margin-bottom: rem-calc(42px);
 				}
 			}
 
 			&__signature.testimonials-carousel-author__signature {
 				display: block;
-				width: rem-calc(125);
+				width: rem-calc(125px);
 				margin-left: auto;
 				margin-right: auto;
 
 				@include media('>desktop-small') {
-					width: rem-calc(155);
+					width: rem-calc(155px);
 				}
 			}
 		}
@@ -424,7 +425,7 @@
 		position: relative;
 		z-index: 4;
 		width: 92%;
-		max-width: rem-calc(350);
+		max-width: rem-calc(350px);
 		margin-left: auto;
 		margin-right: auto;
 
@@ -466,7 +467,7 @@
 	z-index: 4;
 	transform: translateX(-51%);
 	width: 263%;
-	max-width: rem-calc(1500);
+	max-width: rem-calc(1500px);
 
 	@include media('>tablet') {
 		left: 0;

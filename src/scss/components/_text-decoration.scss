@@ -16,23 +16,23 @@
 		left: 7px;
 
 		@include media('>phone') {
-			left: rem-calc(21);
+			left: rem-calc(21px);
 		}
 
 		@include media('>tablet') {
-			left: rem-calc(22);
+			left: rem-calc(22px);
 		}
 
 		@include media('>desktop-small') {
-			left: rem-calc(25);
+			left: rem-calc(25px);
 		}
 
 		@include media('>desktop-medium') {
-			left: rem-calc(27);
+			left: rem-calc(27px);
 		}
 
 		@include media('>desktop-large') {
-			left: rem-calc(29);
+			left: rem-calc(29px);
 		}
 	}
 
@@ -40,23 +40,23 @@
 		@extend %text-decoration;
 
 		transform-origin: right;
-		right: rem-calc(12);
+		right: rem-calc(12px);
 
 		@include media('>phone') {
 			flex-direction: column-reverse;
-			right: rem-calc(27);
+			right: rem-calc(27px);
 		}
 
 		@include media('>tablet') {
-			right: rem-calc(31);
+			right: rem-calc(31px);
 		}
 
 		@include media('>desktop-small') {
-			right: rem-calc(35);
+			right: rem-calc(35px);
 		}
 
 		@include media('>desktop-medium') {
-			right: rem-calc(37);
+			right: rem-calc(37px);
 		}
 	}
 }
@@ -67,19 +67,19 @@
 	@include media('>phone') {
 		width: 100%;
 		display: inline-block;
-		font-size: rem-calc(9);
+		font-size: rem-calc(9px);
 		line-height: 1;
 		letter-spacing: 0.52px;
 		margin-bottom: 5px;
 	}
 
 	@include media('>tablet') {
-		font-size: rem-calc(10);
+		font-size: rem-calc(10px);
 		margin-bottom: 6px;
 	}
 
 	@include media('>desktop-small') {
-		font-size: rem-calc(11);
+		font-size: rem-calc(11px);
 		margin-bottom: 7px;
 	}
 
@@ -120,38 +120,38 @@
 %text-decoration__number {
 	display: inline-block;
 	width: 100%;
-	font-size: rem-calc(34);
+	font-size: rem-calc(34px);
 	line-height: 1;
 	letter-spacing: 2.82px;
 
 	@include media('>phone-small') {
-		font-size: rem-calc(36);
+		font-size: rem-calc(36px);
 	}
 
 	@include media('>phone') {
-		font-size: rem-calc(38);
+		font-size: rem-calc(38px);
 		margin-top: 5px;
 		margin-bottom: 8px;
 	}
 
 	@include media('>tablet') {
-		font-size: rem-calc(42);
+		font-size: rem-calc(42px);
 		margin-top: 6px;
 		margin-bottom: 9px;
 	}
 
 	@include media('>desktop-small') {
-		font-size: rem-calc(46);
+		font-size: rem-calc(46px);
 		margin-top: 7px;
 		margin-bottom: 10px;
 	}
 
 	@include media('>desktop-medium') {
-		font-size: rem-calc(52);
+		font-size: rem-calc(52px);
 	}
 
 	@include media('>desktop-large') {
-		font-size: rem-calc(56);
+		font-size: rem-calc(56px);
 	}
 
 	&--dark {
@@ -175,42 +175,42 @@
 		@extend %text-decoration__large;
 
 		transform-origin: left;
-		left: rem-calc(0);
+		left: rem-calc(0px);
 	}
 
 	&--right {
 		@extend %text-decoration__large;
 
 		transform-origin: right;
-		right: rem-calc(22);
+		right: rem-calc(22px);
 	}
 }
 
 %text-decoration__large-label {
-	font-size: rem-calc(95);
+	font-size: rem-calc(95px);
 
 	@include media('>phone') {
-		font-size: rem-calc(82);
+		font-size: rem-calc(82px);
 	}
 
 	@include media('>tablet') {
-		font-size: rem-calc(94);
+		font-size: rem-calc(94px);
 	}
 
 	@include media('>desktop-small') {
-		font-size: rem-calc(108);
+		font-size: rem-calc(108px);
 	}
 
 	@include media('>desktop-medium') {
-		font-size: rem-calc(120);
+		font-size: rem-calc(120px);
 	}
 
 	@include media('>desktop-large') {
-		font-size: rem-calc(126);
+		font-size: rem-calc(126px);
 	}
 
 	@include media('>desktop-xlarge') {
-		font-size: rem-calc(142);
+		font-size: rem-calc(142px);
 	}
 
 	&--dark {
@@ -232,18 +232,18 @@
 	position: absolute;
 	z-index: 1;
 	background-image: url(../images/general/dots.svg);
-	background-size: rem-calc(100);
+	background-size: rem-calc(100px);
 	background-position: center;
 
 	@include media('>phone') {
-		background-size: rem-calc(125);
+		background-size: rem-calc(125px);
 	}
 
 	@include media('>desktop-small') {
-		background-size: rem-calc(150);
+		background-size: rem-calc(150px);
 	}
 
 	@include media('>desktop-medium') {
-		background-size: rem-calc(175);
+		background-size: rem-calc(175px);
 	}
 }
