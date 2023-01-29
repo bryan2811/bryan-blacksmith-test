@@ -1,5 +1,19 @@
 # Blacksmith Frontend Developer Test
 
+## Solutions provided for the test
+- 👉 I had to install webpack as a dependency because it gave me problems when trying to compile the project.
+- 👉 I simplified the `strip-unit()` function since it gave me an error in the compilation of the styles. I saw no need to multiply the `$num` variable by 0 and then add 1 to it, so I simplified it like this:
+```scss
+@function strip-unit($num) {
+	@return calc($num / 1);
+}
+```
+- 👉 I had errors because of the rem-calc function in the sass files and the solution that worked for me was to run a regular expression in the project through VS Code `rem-calc\(([0-9\s]+)` and replace it with `rem-calc($1px` this way I concatenated the unit type `px` to the style declaration and it compiled correctly.
+- 👉 I corrected the name of the `icon.svg` file to `welding-icon.svg` so that it would appear correctly.
+- 👉 I created a Javascript function to easily handle the interaction of the navigation buttons with a smooth scroll. 👉 [Code](https://github.com/bryan2811/bryan-blacksmith-test/blob/main/src/js/lib/navigation.js#L59:L83)
+- 👉 I also created a small script for the Footer button interaction to go to the top of the page. 👉 [Code](https://github.com/bryan2811/bryan-blacksmith-test/blob/main/src/js/lib/footer-scroll-to-top.js)
+- I corrected the Desktop and Mobile views of all sections of the site according to the provided designs.
+
 ## Getting Started
 
 You need to have Node.js v16 and NPM installed in your machine, these are the dependencies to run the test.
