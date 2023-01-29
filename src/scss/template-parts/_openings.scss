@@ -1,5 +1,4 @@
 .openings {
-  @extend %content__area--dark;
 	overflow: hidden;
 	position: relative;
 	padding-bottom: rem-calc(74px);
@@ -7,6 +6,10 @@
 	@include media('>phone') {
 		padding-bottom: 0;
 	}
+
+  @include media ('>tablet') {
+    background-color: $color-licorice;
+  }
 
   @include media ('>desktop-medium') {
     top: rem-calc(-32px);
@@ -42,6 +45,20 @@
 		@extend %text-decoration--left;
 
 		z-index: 2;
+
+		@include media('<=phone-small') {
+      &__label {
+        color: $color-gray;
+  
+        &-inner {
+          color: $color-gray;
+        }
+      }
+  
+      &__number {
+        color: $color-gray;
+      }
+		}
 
 		@include media('>phone') {
 			top: 28%;
@@ -94,6 +111,7 @@
     @include media('>tablet') {
       display: flex;
       column-gap: rem-calc(96px);
+      padding: rem-calc(32px);
     }
 
     @include media('>desktop-small') {

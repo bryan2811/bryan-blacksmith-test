@@ -16,6 +16,7 @@
                 	<ul class="navigation-menu__list">
                 		<li class="navigation-menu__item navigation-menu__item--has-submenu">
                 			<a href="#" class="navigation-menu__link">
+                        <span class="navigation-menu__indicator">01</span>
                 				<span class="navigation-menu__label">Services</span>
                 			</a>
                 			<button class="navigation-menu__submenu-toggle">Open Submenu</button>
@@ -62,17 +63,20 @@
                 			</ul>
                 		</li>
                 		<li class="navigation-menu__item">
-                			<a href="#" class="navigation-menu__link">
+                			<a href="#about" class="navigation-menu__link">
+                        <span class="navigation-menu__indicator">02</span>
                 				<span class="navigation-menu__label">Experience</span>
                 			</a>
                 		</li>
                 		<li class="navigation-menu__item">
-                			<a href="javascript:void(0);" id="culture-navigation-link" class="navigation-menu__link">
+                			<a href="#culture" id="culture-navigation-link" class="navigation-menu__link">
+                        <span class="navigation-menu__indicator">03</span>
                 				<span class="navigation-menu__label">Company</span>
                 			</a>
                 		</li>
                 		<li class="navigation-menu__item">
-                			<a href="#" class="navigation-menu__link">
+                			<a href="#openings" class="navigation-menu__link">
+                        <span class="navigation-menu__indicator">04</span>
                 				<span class="navigation-menu__label">Careers</span>
                 			</a>
                 		</li>

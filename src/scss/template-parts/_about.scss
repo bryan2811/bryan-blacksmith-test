@@ -2,7 +2,7 @@
 	@extend %site-wrapper;
 
 	position: relative;
-	padding: rem-calc(40px) rem-calc(14px) rem-calc(80px);
+	padding: 0 rem-calc(14px) rem-calc(80px);
 	color: $color-mediumgray;
 
 	@include media('>phone') {

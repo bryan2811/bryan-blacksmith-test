@@ -813,6 +813,7 @@
 		align-items: center;
 		align-content: center;
 		justify-content: flex-start;
+    gap: rem-calc(12px);
 		max-width: calc(100% - 35px);
 		padding-left: rem-calc(20px);
 		padding-right: rem-calc(20px);
@@ -827,8 +828,14 @@
 	}
 
 	&__indicator {
+    color: $color-orange;
+    font-weight: bold;
 		font-size: rem-calc(14px);
 		letter-spacing: 0.17px;
+
+    @include media('>phone-small') {
+      display: none;
+    }
 	}
 
 	&__label {

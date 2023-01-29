@@ -184,10 +184,10 @@
 			}
 
 			&::after {
-				top: 6%;
-				left: -13%;
-				width: 26%;
-				height: 27%;
+				top: 68%;
+				left: 90%;
+				width: 21%;
+				height: 40%;
 
 				@include media('>phone-small') {
 					top: 74.25%;
@@ -210,7 +210,6 @@
 
 			&::before {
 				@extend %image__color-burn--right;
-
 				z-index: 3;
 			}
 		}
@@ -221,11 +220,16 @@
 		}
 
 		&-top {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      z-index: 3;
+      right: 0;
+      top: 12%;
+
       @include media('>phone-small') {
         width: 200px;
         height: 200px;
-        position: absolute;
-        z-index: 3;
         right: -56px;
         top: 50px;
       }
@@ -247,11 +251,16 @@
 		}
 
     &-bottom {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      bottom: 12%;
+
       @include media('>phone-small') {
         width: 200px;
         height: 200px;
-        position: absolute;
-        z-index: 3;
         left: -56px;
         bottom: 50px;
       }

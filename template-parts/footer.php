@@ -62,13 +62,13 @@
         	<nav class="footer-navigation__main">
         		<ul class="footer-navigation__list">
         			<li class="footer-navigation__list-item">
-        				<a href="#" class="footer-navigation__link">Experience</a>
+        				<a href="#about" class="footer-navigation__link">Experience</a>
         			</li>
         			<li class="footer-navigation__list-item">
-        				<a href="#" class="footer-navigation__link">Company</a>
+        				<a href="#culture" id="culture-navigation-link" class="footer-navigation__link">Company</a>
         			</li>
         			<li class="footer-navigation__list-item">
-        				<a href="#" class="footer-navigation__link">Careers</a>
+        				<a href="#openings" class="footer-navigation__link">Careers</a>
         			</li>
         			<li class="footer-navigation__list-item">
         				<a href="#" class="footer-navigation__link">Contract</a>
