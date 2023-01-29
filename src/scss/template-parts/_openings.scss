@@ -7,7 +7,7 @@
 		padding-bottom: 0;
 	}
 
-  @include media ('>tablet') {
+  @include media ('>phone') {
     background-color: $color-licorice;
   }
 
@@ -107,6 +107,13 @@
 
   &__content__container {
     background-color: $color-white;
+
+    @include media('>phone') {
+      display: flex;
+      align-items: center;
+      column-gap: rem-calc(32px);
+      padding: rem-calc(16px);
+    }
 
     @include media('>tablet') {
       display: flex;

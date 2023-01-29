@@ -227,11 +227,21 @@
       right: 0;
       top: 12%;
 
-      @include media('>phone-small') {
+      @include media('>desktop-small') {
+        width: 130px;
+        height: 130px;
+        right: -26px;
+        top: 50px;
+      }
+
+      @include media('>desktop-medium') {
         width: 200px;
         height: 200px;
+        right: -86px;
+      }
+
+      @include media('>desktop-large') {
         right: -56px;
-        top: 50px;
       }
 
 			&::before {
@@ -258,11 +268,21 @@
       left: 0;
       bottom: 12%;
 
-      @include media('>phone-small') {
+      @include media('>desktop-small') {
+        width: 130px;
+        height: 130px;
+        left: -46px;
+        bottom: 50px;
+      }
+
+      @include media('>desktop-medium') {
         width: 200px;
         height: 200px;
+        left: -86px;
+      }
+
+      @include media('>desktop-large') {
         left: -56px;
-        bottom: 50px;
       }
     }
 	}

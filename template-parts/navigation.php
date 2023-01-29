@@ -15,7 +15,7 @@
                 <nav id="navigation-menu" class="navigation__menu navigation-menu">
                 	<ul class="navigation-menu__list">
                 		<li class="navigation-menu__item navigation-menu__item--has-submenu">
-                			<a href="#" class="navigation-menu__link">
+                			<a href="#services" class="navigation-menu__link">
                         <span class="navigation-menu__indicator">01</span>
                 				<span class="navigation-menu__label">Services</span>
                 			</a>
