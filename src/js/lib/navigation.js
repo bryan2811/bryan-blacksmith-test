@@ -67,6 +67,8 @@
       const targetHref = target.getAttribute('href')
       const targetElement = document.querySelector(targetHref)
 
+      if(mobileMenuOpen) toggleMobileActive();
+
       if (targetElement) {
         targetElement.scrollIntoView({
           behavior: 'smooth'
