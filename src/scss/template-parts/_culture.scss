@@ -71,6 +71,7 @@
 		position: relative;
 		bottom: -3rem;
 		right: -0.875rem;
+    margin-left: auto;
 		margin-right: auto;
 		max-width: 355px;
 		z-index: 3;
@@ -118,9 +119,25 @@
 					bottom: 0;
 					top: auto;
 					width: 120%;
-					height: 150%;
+					height: 200%;
 					max-height: 455px;
 					left: 50%;
+				}
+
+				@include media('>desktop-small') {
+					max-height: 485px;
+				}
+
+				@include media('>desktop-medium') {
+					max-height: 560px;
+				}
+
+				@include media('>desktop-medium-large') {
+					max-height: 465px;
+				}
+
+				@include media('>desktop-large') {
+					max-height: 520px;
 				}
 
 				@include media('>desktop-xlarge') {
