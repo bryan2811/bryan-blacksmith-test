@@ -10,7 +10,7 @@
 ```
 - 👉 I had errors because of the rem-calc function in the sass files and the solution that worked for me was to run a regular expression in the project through VS Code `rem-calc\(([0-9\s]+)` and replace it with `rem-calc($1px` this way I concatenated the unit type `px` to the style declaration and it compiled correctly.
 - 👉 I corrected the name of the `icon.svg` file to `welding-icon.svg` so that it would appear correctly.
-- 👉 I created a Javascript function to easily handle the interaction of the navigation buttons with a smooth scroll. 👉 [Code](https://github.com/bryan2811/bryan-blacksmith-test/blob/main/src/js/lib/navigation.js#L59:L83)
+- 👉 I created a Javascript function to easily handle the interaction of the navigation buttons with a smooth scroll. 👉 [Code](https://github.com/bryan2811/bryan-blacksmith-test/blob/main/src/js/lib/navigation.js#L59:L85)
 - 👉 I also created a small script for the Footer button interaction to go to the top of the page. 👉 [Code](https://github.com/bryan2811/bryan-blacksmith-test/blob/main/src/js/lib/footer-scroll-to-top.js)
 - I corrected the Desktop and Mobile views of all sections of the site according to the provided designs.
 
