@@ -22,28 +22,30 @@
 	mix-blend-mode: color;
 }
 
-%image__color-burn {
+@mixin image__color-burn--left {
 	content: '';
 	display: block;
 	position: absolute;
 	top: 0;
-	z-index: 2;
+	z-index: 3;
 	width: 21.5%;
 	height: 100%;
 	background-color: rgba($color-orange, 0.9);
 	mix-blend-mode: color;
+  left: 0;
+}
 
-	&--left {
-		@extend %image__color-burn;
-
-		left: 0;
-	}
-
-	&--right {
-		@extend %image__color-burn;
-
-		right: 0;
-	}
+@mixin image__color-burn--right {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	width: 21.5%;
+	height: 100%;
+	background-color: rgba($color-orange, 0.9);
+	mix-blend-mode: color;
+  right: 0;
 }
 
 %background-image__gray-overlay {

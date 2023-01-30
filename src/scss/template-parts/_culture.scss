@@ -147,15 +147,12 @@
 			z-index: 2;
 
 			&::before {
-				@extend %image__color-burn--left;
-				left: 0;
+				@include image__color-burn--left;
 				display: none;
 
 				@include media('>tablet') {
 					display: block;
 				}
-
-				z-index: 3;
 			}
 
 			&::after {
