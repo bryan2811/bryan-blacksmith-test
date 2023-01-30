@@ -208,6 +208,11 @@
 				width: 45%;
 			}
 
+      &:nth-child(even) {
+        position: relative;
+        top: 10vh;
+      }
+
 			@include media('>desktop-small') {
 				width: 47%;
 				margin-bottom: rem-calc(52px);
